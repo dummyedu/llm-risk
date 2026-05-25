@@ -4,16 +4,20 @@ type: concept
 status: reviewed
 sources:
   - conversation:2026-05-24
-updated: 2026-05-24
+  - reviews/approved/2026-05-24-palantir-first-ontology-practice/REVIEW.md
+updated: 2026-05-25
 ---
 
 # Ontology 关系类型
 
 ## 核心结论
 
-- 用户判断（User judgment）：从映射和存储角度看，关系本质上都是两个实体之间的连接，例如一对一、一对多、多对多。
-- LLM 推断（LLM inference）：关系类型的价值不在存储层，而在运行时解释层。存储层里边就是边；运行时里，不同关系类型会影响规则、权限、查询、动作和解释。
-- LLM 推断（LLM inference）：关系类型应该是有限、受控、可被运行时逻辑引用的语义边类型，而不是业务人员随手起的描述性标签。
+从映射和存储角度看，关系本质上都是两个实体之间的连接，例如一对一、一对多、多对多。
+
+关系类型的价值不在存储层，而在运行时解释层。存储层里边就是边；运行时里，不同关系类型
+会影响规则、权限、查询、动作和解释。
+
+因此，关系类型应该是有限、受控、可被运行时逻辑引用的语义边类型，而不是业务人员随手起的描述性标签。
 
 ## 三层区分
 
@@ -69,7 +73,38 @@ mitigates
 
 映射是把底层数据字段变成对象、属性和关系。
 
-例如 ERP 里有：
+例如第一个 Palantir ontology 实操中，`flight_alerts` 数据集里有：
+
+```text
+flight_alert_id
+alert_title
+flight_id
+root_cause
+```
+
+它们被解释为：
+
+```text
+Flight Alert object
+Flight Alert.title
+Flight Alert -> Flight link
+Flight Alert.root_cause
+```
+
+这里的关系是：
+
+```text
+一个 Flight 可以有多个 Flight Alert。
+一个 Flight Alert 只属于一个 Flight。
+```
+
+映射则是：
+
+```text
+用 flight_alerts.flight_id 匹配 Flight 的主键，生成 Flight Alert -> Flight 这条 link。
+```
+
+另一个通用例子是 ERP 里有：
 
 ```text
 erp_purchase_orders.vendor_code

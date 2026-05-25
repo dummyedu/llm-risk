@@ -2,6 +2,8 @@
 title: 受治理的行动
 type: mechanism
 status: active
+sources:
+  - reviews/approved/2026-05-24-palantir-first-ontology-practice/REVIEW.md
 updated: 2026-05-25
 ---
 
@@ -19,11 +21,16 @@ updated: 2026-05-25
 
 因此 action 必须和权限、审批、审计、回滚、测试一起理解。
 
+第一个 Palantir ontology 实操中的 `Assign Root Cause` 是一个最小 action：用户在
+`Flight Alert` 对象上填写 `root_cause`。它证明 action 可以挂在对象上并写回对象属性，
+但它还只是受控字段编辑，不能直接外推为复杂业务执行闭环。
+
 ## 行动成熟度
 
 ```text
 解释 / 建议
 -> 沙盒推演
+-> 受控字段写回
 -> 暂存动作
 -> 审批后执行
 -> 有边界的自动执行

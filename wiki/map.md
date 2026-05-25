@@ -36,6 +36,7 @@
 - [[sources/palantir-dynamic-ontology-core]]
 - [[sources/palantir-toolchain-dynamic-ontology-1]]
 - [[sources/palantir-semantic-compiler-engine-1]]
+- [[sources/palantir-first-ontology-practice]]
 
 ## 使用原则
 

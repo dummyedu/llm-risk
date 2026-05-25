@@ -72,6 +72,7 @@ NAV_SECTIONS = (
             "wiki/sources/palantir-dynamic-ontology-core.md",
             "wiki/sources/palantir-toolchain-dynamic-ontology-1.md",
             "wiki/sources/palantir-semantic-compiler-engine-1.md",
+            "wiki/sources/palantir-first-ontology-practice.md",
         ),
     ),
 )
