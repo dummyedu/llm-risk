@@ -27,9 +27,6 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
       - name: Build static wiki
         run: python3 tools/wiki_static.py
 
