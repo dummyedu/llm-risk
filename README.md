@@ -1,48 +1,76 @@
 # ei-wiki
 
-Independent enterprise-intelligence research wiki.
+独立企业智能研究 wiki。
 
-## Purpose
+## 目的
 
-This repo supports a slow, source-aware research loop for enterprise AI systems.
-The first source family is the Palantir material currently stored under:
+本仓库支持一种慢速、保留来源上下文的企业 AI 系统研究循环。第一组来源是
+当前存放在以下路径的 Palantir 材料：
 
 ```text
 /Users/ningl/work/risk/palantir
 ```
 
-The goal is to understand methods, concepts, cases, and design principles before
-turning them into project decisions. The local `risk` project may later cite
-this wiki, but this wiki is not part of `risk`.
+目标是在把研究转成项目决策前，先理解方法、概念、案例和设计原则。本地
+`risk` 项目未来可以引用本 wiki，但本 wiki 不是 `risk` 的一部分。
 
-## Research Loop
+## 研究循环
 
-1. Select one source file, or one small coherent bundle.
-2. Create a review package under `reviews/pending/`.
-3. Discuss the source, claims, doubts, and useful ideas.
-4. Approve the review package.
-5. Apply durable synthesis into `wiki/`.
-6. Update `meta/INGEST_LEDGER.md`.
+1. 选择一个来源文件，或一个小的连贯来源包。
+2. 在 `reviews/pending/` 下创建 review package。
+3. 讨论来源、主张、疑点和有用想法。
+4. 批准 review package。
+5. 将耐久综合写入 `wiki/`。
+6. 更新 `meta/INGEST_LEDGER.md`。
 
-## Main Areas
+## 主要区域
 
-- `raw/`: source indexes and future source inboxes.
-- `reviews/`: draft/review layer before wiki updates.
-- `wiki/`: reviewed synthesis layer.
-- `meta/`: schema, source policy, research principles, and ledger.
-- `docs/workflows/`: repeatable research workflows.
+- `raw/`：来源索引和未来来源收件箱。
+- `reviews/`：写入 wiki 前的草稿/review 层。
+- `wiki/`：已审核综合层。
+- `meta/`：schema、来源政策、研究原则和 ledger。
+- `docs/workflows/`：可重复执行的研究流程。
 
-## V0 Boundary
+## 阅读 Wiki
 
-- No bulk ingest.
-- No raw source copying by default.
-- No vector database.
-- No browser app.
-- No direct writes into the `risk` project.
+### Obsidian
 
-## Starter Prompt
+把这个仓库目录作为 Obsidian vault 打开：
 
-Use this when beginning a research session:
+```text
+/Users/ningl/work/ei-wiki
+```
+
+本 wiki 使用普通 Markdown 和 Obsidian 风格链接，例如 `[[map]]`。
+
+### 浏览器预览
+
+运行本地零依赖预览服务器：
+
+```bash
+python3 tools/wiki_preview.py
+```
+
+然后打开：
+
+```text
+http://127.0.0.1:8765/
+```
+
+预览服务器只渲染 `wiki/` 中的正式阅读内容，并把简单的 `[[wiki links]]`
+转成浏览器链接。如果 `8765` 端口被占用，它会自动尝试后续可用端口。
+
+## V0 边界
+
+- 不批量 ingest。
+- 默认不复制原始来源文件。
+- 不建向量数据库。
+- 不做浏览器 app。
+- 不直接写入 `risk` 项目。
+
+## 起始提示词
+
+开始研究 session 时可以使用：
 
 ```text
 请从 raw/palantir/MANIFEST.md 里选一个 Palantir 文件，按 docs/workflows/research-one-source.md 和我边读边讨论。

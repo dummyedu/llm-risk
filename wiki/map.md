@@ -1,38 +1,43 @@
-# Map
+# 知识地图
 
-## Concepts
+## 概念
 
-- Ontology
-- Ontology-augmented generation
-- Semantic layer
-- Enterprise operating system
-- Digital twin
-- Agent evals
-- Guardrails
-- OSDK
+- [[concepts/ontology]]
+- [[concepts/palantir-dynamic-ontology]]
+- [[concepts/data-logic-action]]
+- [[concepts/semantic-layer]]
+- [[concepts/oag]]
+- [[concepts/semantic-compilation]]
+- [[concepts/ontology-relation-types]]
 
-## Methods
+## 机制
 
-- FDE delivery
-- Bootcamp
-- Ontology modeling
-- Enterprise agent evaluation
-- Semantic search construction
-- AI rollout and adoption
+- [[mechanisms/ontology-runtime-loop]]
+- [[mechanisms/data-to-ontology-mapping]]
+- [[mechanisms/logic-execution]]
+- [[mechanisms/governed-action]]
+- [[mechanisms/feedback-and-evolution]]
 
-## Cases
+## 方法
 
-- Palantir internal practices
-- First Solar
-- HCA
-- RaceTrac
-- SAP
-- Databricks
+- [[methods/small-ontology-path]]
+- [[methods/ontology-centered-delivery]]
 
-## Applications
+## 问题与可能性
 
+- [[questions]]
 - [[applications/risk]]
 
-## Map Status
+## 文章分析
 
-This is a starter map. Items become links only after reviewed pages exist.
+- [[sources/palantir-eleven-part-preface]]
+- [[sources/palantir-decision-paradigm]]
+- [[sources/palantir-ontology-foundation]]
+- [[sources/palantir-dynamic-ontology-core]]
+- [[sources/palantir-toolchain-dynamic-ontology-1]]
+- [[sources/palantir-semantic-compiler-engine-1]]
+
+## 使用原则
+
+文章分析服务于知识页。后续 review 产生的新内容，应优先合并到上面的概念、机制、
+方法或问题页中，而不是只新增文章页。

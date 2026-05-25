@@ -32,6 +32,29 @@ of this research system.
   links require explicit overlap, a reviewed bridge page, or user confirmation.
 - Prefer updating existing wiki pages before creating new pages.
 
+## Shared Wiki Skill Source
+
+General wiki methods are maintained in:
+
+```text
+/Users/ningl/work/llm-lining/skills/wiki-review
+/Users/ningl/work/llm-lining/skills/wiki-maintain
+/Users/ningl/work/llm-lining/skills/wiki-query
+/Users/ningl/work/llm-lining/docs/workflows/wiki-review.md
+/Users/ningl/work/llm-lining/docs/workflows/wiki-maintain.md
+/Users/ningl/work/llm-lining/docs/workflows/wiki-query.md
+```
+
+This repository is a project-specific wrapper around those shared skills. For
+wiki shape, review digestion, ingest, maintenance, query, lint, and refactor
+behavior, prefer the shared `llm-lining` wiki skills when available. Keep this
+repository focused on local boundaries, source locations, review gates, and
+enterprise-intelligence-specific context.
+
+If a shared wiki method conflicts with this file's source boundaries or safety
+rules, this repository's local boundary rule wins. If the conflict is only about
+general wiki organization, the shared `llm-lining` skill is the source of truth.
+
 ## Source Boundaries
 
 The initial source family is external:
