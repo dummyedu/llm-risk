@@ -13,4 +13,4 @@
 | 2026-05-25 | `Palantir实战（五）：Pipeline Builder 的轻量级转换.mhtml` | 4416314 | 2025-11-13 06:08:03 | deferred | `reviews/deferred/2026-05-25-palantir-pipeline-builder-lwt/REVIEW.md` | 已讨论；判断为数据工程执行引擎性能贴，仅与 ontology 的 clean dataset 生产间接相关，暂不进入 wiki 主线 |
 | 2026-05-25 | `Palantir实战（三）：构建你的第一个AIP智能体——从结构化知识到智能对话.mhtml` | 5069478 | 2025-11-12 03:44:39 | deferred | `reviews/deferred/2026-05-25-palantir-aip-agent-faa/REVIEW.md` | 已讨论并废弃；判断为 `对象检索 + LLM 回答` 的 RAG/问答旁支，不进入业务 ontology 主线 |
 | 2026-05-25 | `Palantir实战（四）：从零开始构建企业级RAG智能应用.pdf` | 4577529 | 2025-11-12 13:07:54 | skipped |  | 继实战（二）（三）后仍属于 RAG/问答支线；按用户方向判断暂跳过，不创建 review |
-| 2026-05-25 | `Palantir实战（六）：防御性数据库之优化索引刷新语义.mhtml` | 4182562 | 2025-12-08 10:43:39 | pending | `reviews/pending/2026-05-25-palantir-defensive-database-refresh/REVIEW.md` | 待讨论；基础设施稳定性案例，解释通过 ES 插件重写 refresh 策略来构建防御性数据库 |
+| 2026-05-25 | `Palantir实战（六）：防御性数据库之优化索引刷新语义.mhtml` | 4182562 | 2025-12-08 10:43:39 | deferred | `reviews/deferred/2026-05-25-palantir-defensive-database-refresh/REVIEW.md` | 已讨论并废弃；基础设施稳定性案例，不服务于当前业务 ontology 主线阅读目标 |

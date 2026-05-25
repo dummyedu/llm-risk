@@ -1,5 +1,12 @@
 # Review：Palantir 实战（六）：防御性数据库之优化索引刷新语义
 
+## 当前状态
+
+已讨论，转为 deferred / discarded，不进入正式 wiki。
+
+用户判断：当前不考虑这篇。它虽然是基础设施稳定性案例，但不服务于当前业务 ontology
+主线阅读目标。
+
 ## 先讲清楚：这篇到底举了什么例子
 
 这篇不是 ontology 建模，也不是 RAG/agent。
