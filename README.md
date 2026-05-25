@@ -60,6 +60,30 @@ http://127.0.0.1:8765/
 预览服务器只渲染 `wiki/` 中的正式阅读内容，并把简单的 `[[wiki links]]`
 转成浏览器链接。如果 `8765` 端口被占用，它会自动尝试后续可用端口。
 
+### GitHub Pages
+
+生成静态站点：
+
+```bash
+python3 tools/wiki_static.py
+```
+
+本地查看静态站点：
+
+```bash
+python3 -m http.server 8780 -d site
+```
+
+然后打开：
+
+```text
+http://127.0.0.1:8780/
+```
+
+`site/` 是构建产物，已被 `.gitignore` 忽略。GitHub Actions 会在 push 到
+`main` 后自动重新构建并发布 GitHub Pages。静态站点只发布 `wiki/` 中的内容，
+不会复制 `reviews/`、`raw/`、`meta/` 或 `tools/` 目录。
+
 ## V0 边界
 
 - 不批量 ingest。
