@@ -2,15 +2,13 @@
 
 ## 当前状态
 
-恢复为 pending review，等待讨论；暂不进入正式 wiki。
+已讨论，转为 deferred / discarded，不进入正式 wiki。
 
-说明：这篇文章明确承接 `Palantir 实战（二)`。实战（二）已经看过，但判断为
-RAG 数据准备旁支，不进入 wiki 主线。因此本文也应谨慎处理：它可以用于理解
-`AIP Agent 如何读取已有对象作为检索上下文`，但不应用来证明业务 ontology、action
-或 workflow 闭环。
+说明：这篇文章明确承接 `Palantir 实战（二)`。实战（二）已经判断为 RAG 数据准备旁支，
+不进入 wiki 主线。本文进一步把该旁支包装成 AIP Agent 问答应用，本质仍是
+`对象检索 + LLM 回答`，没有补充业务 ontology、action 或 workflow 闭环。
 
-当前讨论重点不是“agent 有多智能”，而是它到底只是 `对象检索 + LLM 回答`，还是对
-ontology 主线有更强贡献。
+用户判断：这篇对当前主线价值很低，废弃。
 
 ## 先讲清楚：这篇到底举了什么例子
 
