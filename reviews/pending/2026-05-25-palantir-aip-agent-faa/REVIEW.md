@@ -2,13 +2,15 @@
 
 ## 当前状态
 
-顺序阻塞，暂不进入正式 wiki。
+恢复为 pending review，等待讨论；暂不进入正式 wiki。
 
-原因：这篇文章明确承接 `Palantir 实战（二)`，前置内容是把 FAA 飞行员手册 PDF
-处理成 ontology 资产。该前置文章尚未 review，因此现在直接吸收实战（三）会破坏阅读顺序，
-也容易把前置 PDF-to-ontology/RAG 链路理解成已验证事实。
+说明：这篇文章明确承接 `Palantir 实战（二)`。实战（二）已经看过，但判断为
+RAG 数据准备旁支，不进入 wiki 主线。因此本文也应谨慎处理：它可以用于理解
+`AIP Agent 如何读取已有对象作为检索上下文`，但不应用来证明业务 ontology、action
+或 workflow 闭环。
 
-保留为 deferred review。后续应先 review 实战（二），再回来决定本文哪些内容进入 wiki。
+当前讨论重点不是“agent 有多智能”，而是它到底只是 `对象检索 + LLM 回答`，还是对
+ontology 主线有更强贡献。
 
 ## 先讲清楚：这篇到底举了什么例子
 

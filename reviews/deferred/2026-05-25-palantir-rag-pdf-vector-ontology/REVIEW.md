@@ -1,5 +1,14 @@
 # Review：Palantir 实战（二）：从 PDF 到向量化本体
 
+## 当前状态
+
+已讨论，转为 deferred / discarded，不进入正式 wiki 主线。
+
+原因：这篇主要是 RAG 数据准备，把 PDF 切成 chunk、计算 embedding，再包装成
+`FAA Chunk` object type。它解释了实战（三）的前置对象从哪里来，但和前面讨论的业务
+ontology 建模不是同一类东西。当前只把它保留为理解实战（三）的背景，不把它吸收进正式
+wiki 的核心结论。
+
 ## 先讲清楚：这篇到底举了什么例子
 
 这篇文章接在 `Palantir 实战（一）` 后面，但它不是继续做航班告警对象，也不是讲 agent
