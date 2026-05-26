@@ -36,14 +36,20 @@
 - 来源事实（Source fact）：`连接AI与决策：深度解析Palantir的“基石”：本体（Ontology）` 将决策拆为 Data、Logic、Action 三个要素；该来源是二手评论，不是官方材料。
 - 来源事实（Source fact）：`Palantir 实战（一）：构建第一个本体` 展示了 `flight_alerts`
   dataset 到 `Flight Alert` object type、属性、link type 和 `Assign Root Cause` action 的最小链路；该来源是二手教程总结，不是官方材料。
+- 来源事实（Source fact）：`使用 AIP 构建 AI 驱动的流程挖掘与自动化系统` 展示了
+  SAP 数据到流程对象、流程日志、ontology、Machinery、Workshop、AIP Logic 和 Automate
+  的信用冻结建议链路；该来源是二手教程总结，不是官方材料。
 - LLM 推断（LLM inference）：ontology 可以暂时理解为以决策为中心的业务运行模型，而不只是数据语义层；但该理解仍需后续来源验证。
 - 用户判断（User judgment）：当前更工程化的阶段理解是：ontology 是基于表数据的面向对象业务表达；类是 Object Type，实例是运行时 Object，mapping 把表和字段连到对象、属性和关系，action 像对象上的受控函数。
+- 用户判断（User judgment）：治理后的 ontology 对象模型比临时拼接数据更适合承载反复发生的业务决策；它提高的不是 LLM 本身智力，而是业务上下文的表达力、可复用性和可治理性。
 - 研究问题（Research question）：企业 AI 的关键资产是否不只是业务数据，还包括历史决策过程、被评估选项、最终行动和下游影响？
 - 研究问题（Research question）：LLM/AIP 在 ontology 中到底应承担自然语言入口、解释、方案生成、工具选择、动作编排中的哪些角色？
 - 研究问题（Research question）：OAG 中“LLM 不是推理主体，真正推理发生在 ontology 内部”这个说法是否过强？
 - 研究问题（Research question）：ontology 与更强 LLM/agent 的关系是替代关系，还是“治理化理性系统 + 生成式直觉系统”的组合关系？
 - 研究问题（Research question）：`Assign Root Cause` 这种最小 action 和复杂企业 workflow 之间缺哪些环节：审批、权限、测试、回滚、异常处理、审计和多对象协同分别在哪里发生？
 - 研究问题（Research question）：Palantir 官方材料如何定义 Object Type、Object、Link Type、Action Type、Ontology Context，和当前“面向对象业务表达”的类比是否一致？
+- 研究问题（Research question）：`AIP Logic` 的输出是只写回 ontology 的建议字段，还是能直接触发受控 action？
+- 研究问题（Research question）：`Automate` 触发的是判断函数、暂存动作，还是实际业务写回？如果能写回 SAP，审批、审计和回滚在哪里？
 
 ## `risk` 应用问题
 

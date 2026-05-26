@@ -1,5 +1,22 @@
 # Review：Palantir 实战：使用 AIP 构建 AI 驱动的流程挖掘与自动化系统
 
+## 当前状态
+
+已讨论并应用到正式 wiki。
+
+正式吸收的判断是：治理后的 ontology 对象模型比临时拼接数据更适合承载反复发生的业务决策；
+它提高的是业务上下文的表达力、可复用性和可治理性，不是证明 LLM 本身更聪明，也不是证明
+无人值守 action 闭环已经成立。
+
+正式更新位置：
+
+- `wiki/sources/palantir-aip-process-mining.md`
+- `wiki/concepts/ontology.md`
+- `wiki/concepts/palantir-dynamic-ontology.md`
+- `wiki/mechanisms/ontology-runtime-loop.md`
+- `wiki/mechanisms/governed-action.md`
+- `wiki/questions.md`
+
 ## 先讲清楚：这篇到底举了什么例子
 
 这篇讲的是一个 `Order-to-Cash` 流程中的“信用冻结”场景。
@@ -138,7 +155,7 @@ Data
 - 保存或修改时间：2025-11-11 09:32:51
 - 表观主题：用 AIP、Ontology、Machinery、Workshop、AIP Logic、Automate 构建流程挖掘与自动化方案
 - 当前为什么读：前几篇 RAG/agent 支线价值低，本篇更可能触及 workflow/action/业务闭环
-- Review 状态：pending，等待用户讨论和批准
+- Review 状态：已讨论并应用到正式 wiki
 
 ## 来源事实摘要
 

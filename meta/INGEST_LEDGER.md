@@ -14,4 +14,4 @@
 | 2026-05-25 | `Palantir实战（三）：构建你的第一个AIP智能体——从结构化知识到智能对话.mhtml` | 5069478 | 2025-11-12 03:44:39 | deferred | `reviews/deferred/2026-05-25-palantir-aip-agent-faa/REVIEW.md` | 已讨论并废弃；判断为 `对象检索 + LLM 回答` 的 RAG/问答旁支，不进入业务 ontology 主线 |
 | 2026-05-25 | `Palantir实战（四）：从零开始构建企业级RAG智能应用.pdf` | 4577529 | 2025-11-12 13:07:54 | skipped |  | 继实战（二）（三）后仍属于 RAG/问答支线；按用户方向判断暂跳过，不创建 review |
 | 2026-05-25 | `Palantir实战（六）：防御性数据库之优化索引刷新语义.mhtml` | 4182562 | 2025-12-08 10:43:39 | deferred | `reviews/deferred/2026-05-25-palantir-defensive-database-refresh/REVIEW.md` | 已讨论并废弃；基础设施稳定性案例，不服务于当前业务 ontology 主线阅读目标 |
-| 2026-05-25 | `Palantir实战：使用AIP构建AI驱动的流程挖掘与自动化系统.mhtml` | 16749942 | 2025-11-11 09:32:51 | pending | `reviews/pending/2026-05-25-palantir-aip-process-mining/REVIEW.md` | 待讨论；候选主线材料，讲 SAP 数据、流程对象、Ontology、Machinery、Workshop、AIP Logic 与 Automate 的业务流程 AI 副驾链路 |
+| 2026-05-25 | `Palantir实战：使用AIP构建AI驱动的流程挖掘与自动化系统.mhtml` | 16749942 | 2025-11-11 09:32:51 | approved | `reviews/approved/2026-05-25-palantir-aip-process-mining/REVIEW.md` | 已讨论并应用；创建 `wiki/sources/palantir-aip-process-mining.md`；吸收为业务流程 AI 副驾案例：治理后的 ontology 对象模型提高业务上下文表达力，但不证明无人值守 action 闭环 |

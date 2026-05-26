@@ -37,6 +37,7 @@
 - [[sources/palantir-toolchain-dynamic-ontology-1]]
 - [[sources/palantir-semantic-compiler-engine-1]]
 - [[sources/palantir-first-ontology-practice]]
+- [[sources/palantir-aip-process-mining]]
 
 ## 使用原则
 
