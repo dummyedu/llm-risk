@@ -245,7 +245,7 @@ raw tables
 
 若用户批准，建议：
 
-- 创建 `wiki/sources/palantir-pipeline-builder-lwt.md`，作为可读文章分析页。
+- 创建 `references/source-notes/palantir-pipeline-builder-lwt.md`，作为可读来源笔记。
 - 新建或更新 `wiki/mechanisms/data-pipeline-to-ontology.md`，解释从 raw tables 到 clean datasets 再到 object mapping 的链路。
 - 更新 [[concepts/ontology]]，补一句：ontology 的对象模型依赖底层数据管道产出可映射的数据集。
 - 更新 [[mechanisms/data-to-ontology-mapping]]，补入 Pipeline Builder 的位置：它更偏 mapping 之前的数据准备层。

@@ -22,28 +22,15 @@
 
 - [[methods/small-ontology-path]]
 - [[methods/ontology-centered-delivery]]
+- [[methods/field-deployment-engineering]]
 
 ## 问题与可能性
 
 - [[questions]]
 - [[applications/risk]]
 
-## 文章分析
-
-- [[sources/palantir-eleven-part-preface]]
-- [[sources/palantir-decision-paradigm]]
-- [[sources/palantir-ontology-foundation]]
-- [[sources/palantir-dynamic-ontology-core]]
-- [[sources/palantir-toolchain-dynamic-ontology-1]]
-- [[sources/palantir-semantic-compiler-engine-1]]
-- [[sources/palantir-first-ontology-practice]]
-- [[sources/palantir-aip-process-mining]]
-- [[sources/palantir-fde-deep-dive]]
-- [[sources/palantir-fde-day]]
-- [[sources/palantir-baseline-fdie]]
-- [[sources/palantir-ontology-oriented-software-dev]]
-
 ## 使用原则
 
-文章分析服务于知识页。后续 review 产生的新内容，应优先合并到上面的概念、机制、
-方法或问题页中，而不是只新增文章页。
+正式 wiki 只展示知识对象。文章分析、引用和备份留在 `references/source-notes/`
+与 `reviews/` 中，不作为 wiki 导航和阅读主体。后续 review 产生的新内容，应优先
+合并到上面的概念、机制、方法或问题页中。

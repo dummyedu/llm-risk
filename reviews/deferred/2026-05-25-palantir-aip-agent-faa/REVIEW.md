@@ -255,7 +255,7 @@ PDF / raw data
 
 若用户批准，建议：
 
-- 创建 `wiki/sources/palantir-aip-agent-faa.md`，作为可读文章分析页。
+- 创建 `references/source-notes/palantir-aip-agent-faa.md`，作为可读来源笔记。
 - 新建或更新 `wiki/concepts/aip-agent.md`，把 agent 定义为 `LLM + instructions + retrieval context + deployment wrapper` 的阶段性理解。
 - 更新 [[concepts/ontology]]，补入 ontology object 可以是知识片段，不只传统业务实体。
 - 更新 [[concepts/oag]] 或新建机制页，说明 Ontology Context 如何让 agent 使用 ontology objects。

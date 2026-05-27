@@ -269,7 +269,7 @@ elif refresh is immediate:
 
 若用户批准，建议：
 
-- 创建 `wiki/sources/palantir-defensive-database-refresh.md`，作为可读来源页。
+- 创建 `references/source-notes/palantir-defensive-database-refresh.md`，作为可读来源笔记。
 - 新建或更新 `wiki/mechanisms/defensive-infrastructure.md`，记录防御性数据库案例。
 - 更新 [[questions]]，保留：企业智能平台中，底层基础设施应在多大程度上主动改写危险调用？
 - 不更新 [[concepts/ontology]]，因为本文不是 ontology 建模材料。

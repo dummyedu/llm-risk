@@ -290,7 +290,7 @@ derived dataset。
 
 若用户批准，建议：
 
-- 创建 `wiki/sources/palantir-rag-pdf-vector-ontology.md`，作为可读文章分析页。
+- 创建 `references/source-notes/palantir-rag-pdf-vector-ontology.md`，作为可读来源笔记。
 - 更新 [[concepts/ontology]]，补入 ontology object 可以是文档 chunk / 知识对象。
 - 更新 [[mechanisms/data-to-ontology-mapping]]，补入 `PDF -> extracted_text -> chunks -> embeddings -> object type` 链路。
 - 新建或更新一个机制页，例如 `wiki/mechanisms/document-to-knowledge-object.md`，

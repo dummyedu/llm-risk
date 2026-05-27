@@ -31,8 +31,8 @@
    - 用户判断（User judgment）
    - LLM 推断（LLM inference）
    - 应用假设（Application hypothesis）
-6. 创建或更新 `wiki/sources/<slug>.md` 来源页。来源页必须是可读文章笔记，
-   不能是 claim 条目列表。
+6. 如需保留单篇来源分析，创建或更新 `references/source-notes/<slug>.md`。
+   来源笔记是证据和备份层，不属于正式 wiki。
 7. 创建或更新至少一个综合判断位置，除非该来源明确不适合进入综合层。
 8. 如果没有更新综合页，必须在 `meta/INGEST_LEDGER.md` notes 中说明原因。
 9. 只有当批准内容改变耐久导航或耐久问题时，才更新 `wiki/index.md`、
@@ -40,16 +40,15 @@
 10. 更新 `meta/INGEST_LEDGER.md`。
 11. 将 package 移动或复制到 `reviews/approved/`。
 
-## 三层输出
+## 输出层次
 
 应用 approved review 时，按共享 wiki skill 的知识对象网络原则组织：
 
-1. **来源页**：单篇来源的可读文章笔记，说明文章主线、读后理解、最有用部分、
-   警惕点、对综合页的影响和来源追溯。
-2. **综合页**：跨来源或可复用的概念、方法、判断框架、应用假设。
-3. **问题页**：尚未定论、需要继续验证的问题。
+1. **正式 wiki 页**：跨来源或可复用的概念、机制、方法、判断框架、应用假设。
+2. **问题页**：尚未定论、需要继续验证的问题。
+3. **来源笔记**：单篇来源的分析、引用和备份，放在 `references/source-notes/`。
 
-来源页是证据层，不是主要阅读层。综合页才是浏览器 wiki 的主体。
+来源笔记是证据层，不是 wiki 层。浏览器 wiki 的主体只能是正式知识对象。
 
 正式 wiki 正文应先表达结论和理解，不应在每句话前铺 `Source fact`、
 `Author opinion`、`LLM inference` 等标签。标签用于 review、ledger 或页面底部

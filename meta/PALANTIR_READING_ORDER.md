@@ -9,7 +9,7 @@
 
 1. 单篇来源进入 `reviews/pending/<date>-<slug>/REVIEW.md`。
 2. 用户讨论并批准。
-3. 应用到 `wiki/sources/` 和相关综合页。
+3. 应用到 `references/source-notes/` 和相关综合页。
 4. 移入 `reviews/approved/`。
 
 ## 来源包

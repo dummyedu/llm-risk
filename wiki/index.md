@@ -17,6 +17,8 @@
 - [[concepts/data-logic-action]]
 - [[mechanisms/ontology-runtime-loop]]
 - [[methods/small-ontology-path]]
+- [[methods/ontology-centered-delivery]]
+- [[methods/field-deployment-engineering]]
 
 ## 目前形成的知识骨架
 
@@ -27,8 +29,9 @@
 - **方法**：解释如何做，例如 [[methods/small-ontology-path]]。
 - **问题与可能性**：记录尚未定论、需要后续材料修正的部分，例如 [[questions]]。
 
-文章分析页保留在 `sources/` 中，用于回看某篇文章如何影响这些知识对象。
-它们不是主线，但可以帮助追溯理解来源。
+文章分析不属于正式 wiki 主体。单篇文章的分析、引用和备份保留在
+`references/source-notes/` 与 `reviews/` 中，用于追溯；正式 wiki 只呈现消化后的
+概念、机制、方法、问题和应用假设。
 
 ## 后续更新方式
 

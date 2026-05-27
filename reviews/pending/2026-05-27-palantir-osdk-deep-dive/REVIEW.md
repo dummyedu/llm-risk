@@ -443,7 +443,7 @@ OSDK 已经消除所有后端集成和权限复杂性；
 
 如果用户批准，建议：
 
-- 创建来源页：`wiki/sources/palantir-osdk-deep-dive.md`。
+- 创建来源笔记：`references/source-notes/palantir-osdk-deep-dive.md`。
 - 新建或更新 `wiki/concepts/osdk.md`：
   - OSDK 是 ontology 的开发者接口层。
   - 关键边界：应用类型、权限模式、resource scoping、对象/action/function 选择。
