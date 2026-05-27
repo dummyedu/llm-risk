@@ -39,9 +39,13 @@
 - 来源事实（Source fact）：`使用 AIP 构建 AI 驱动的流程挖掘与自动化系统` 展示了
   SAP 数据到流程对象、流程日志、ontology、Machinery、Workshop、AIP Logic 和 Automate
   的信用冻结建议链路；该来源是二手教程总结，不是官方材料。
+- 来源事实（Source fact）：`Palantir 揭秘：软件开发的终局，是被“本体”统一？` 以航空公司飞机预检警示灯为例，说明传统应用开发需要处理数据库、REST API、认证、JSON、邮件审批和底层操作，而本体导向开发希望开发者通过 OSDK 操作业务对象；该来源是二手解读，不是官方材料。
 - LLM 推断（LLM inference）：ontology 可以暂时理解为以决策为中心的业务运行模型，而不只是数据语义层；但该理解仍需后续来源验证。
 - 用户判断（User judgment）：当前更工程化的阶段理解是：ontology 是基于表数据的面向对象业务表达；类是 Object Type，实例是运行时 Object，mapping 把表和字段连到对象、属性和关系，action 像对象上的受控函数。
 - 用户判断（User judgment）：治理后的 ontology 对象模型比临时拼接数据更适合承载反复发生的业务决策；它提高的不是 LLM 本身智力，而是业务上下文的表达力、可复用性和可治理性。
+- 用户判断（User judgment）：本体只是一种模式，类似面向对象；模式总在变，不能把它当作软件开发终局。
+- 用户判断（User judgment）：ontology-oriented development 本质仍然是开发；它减少一级临时理解，但增加一级抽象，好坏取决于具体需求。
+- LLM 推断（LLM inference）：ontology 的一个价值，是把客户现有系统的数据、逻辑和动作映射成共享业务对象层，减少每个应用重复处理数据库/API/认证/字段含义的胶水代码。
 - 研究问题（Research question）：企业 AI 的关键资产是否不只是业务数据，还包括历史决策过程、被评估选项、最终行动和下游影响？
 - 研究问题（Research question）：LLM/AIP 在 ontology 中到底应承担自然语言入口、解释、方案生成、工具选择、动作编排中的哪些角色？
 - 研究问题（Research question）：OAG 中“LLM 不是推理主体，真正推理发生在 ontology 内部”这个说法是否过强？
@@ -50,6 +54,23 @@
 - 研究问题（Research question）：Palantir 官方材料如何定义 Object Type、Object、Link Type、Action Type、Ontology Context，和当前“面向对象业务表达”的类比是否一致？
 - 研究问题（Research question）：`AIP Logic` 的输出是只写回 ontology 的建议字段，还是能直接触发受控 action？
 - 研究问题（Research question）：`Automate` 触发的是判断函数、暂存动作，还是实际业务写回？如果能写回 SAP，审批、审计和回滚在哪里？
+- 研究问题（Research question）：OSDK 如何映射到底层 API、权限、action 和写回语义？
+- 研究问题（Research question）：ontology 层如何处理底层系统 schema 变化、性能压力和版本迁移？
+
+## 交付与建模问题
+
+- 来源事实（Source fact）：`Palantir FDE 深度解析` 将 FDE 描述为嵌入客户现场、使用 Foundry/Gotham 解决客户问题的角色，并认为其工作包含工作流、配置、权限、客户沟通和 ETL；该来源是二手评论，不是官方材料。
+- 来源事实（Source fact）：`Palantir FDE 的一天` 以 NHS 为例，描述 FDE 面对患者数据治理、ICU 数据与家庭医生随访记录整合、数据血缘权限和护士长工作界面；该来源是二手叙事，不是官方材料。
+- 来源事实（Source fact）：`揭秘 Palantir 的基线团队和前沿部署基础设施工程` 描述 Baseline / FDIE 支撑商业云、私有云、隔离网络、边缘设备等环境中的部署、升级、监控、支持和合规；该来源是二手解读，不是官方材料。
+- 作者观点（Author opinion）：该文认为 FDE 更像高端 IT 咨询、专业实施、TAM 和部分数据工程的重新包装，而不是软件工程革命。
+- 用户判断（User judgment）：FDE 的关键能力是建模能力；会建模，才能自然推出需要什么功能。
+- 用户判断（User judgment）：FDE 不应建立所有模型，而应围绕具体客户问题建立足够支撑判断、action、workflow、权限和审计的局部模型。
+- 用户判断（User judgment）：`Palantir FDE 的一天` 只需作为 FDE 主要价值和客户现场情况的表征性材料，不需要过于严肃处理。
+- LLM 推断（LLM inference）：Palantir 的客户价值应暂时理解为强平台、前线工程实施和客户现场问题翻译的组合，而不是纯产品或纯人力服务。
+- LLM 推断（LLM inference）：FDE/ontology/AIP 能进入真实客户现场，依赖平台可部署性、可升级性、可观测性和隔离环境支持能力。
+- 研究问题（Research question）：FDE 的现场项目经验如何反向沉淀成通用平台能力，而不是长期依赖高强度人力服务？
+- 研究问题（Research question）：问题驱动的局部模型在什么时候应该扩展为更稳定的企业级 ontology？
+- 研究问题（Research question）：平台可交付性在 enterprise AI 中是否和业务建模同等关键？
 
 ## `risk` 应用问题
 

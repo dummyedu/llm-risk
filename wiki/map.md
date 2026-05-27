@@ -38,6 +38,10 @@
 - [[sources/palantir-semantic-compiler-engine-1]]
 - [[sources/palantir-first-ontology-practice]]
 - [[sources/palantir-aip-process-mining]]
+- [[sources/palantir-fde-deep-dive]]
+- [[sources/palantir-fde-day]]
+- [[sources/palantir-baseline-fdie]]
+- [[sources/palantir-ontology-oriented-software-dev]]
 
 ## 使用原则
 

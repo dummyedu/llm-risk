@@ -24,6 +24,7 @@ updated: 2026-05-24
 - [[concepts/palantir-dynamic-ontology]]
 - [[concepts/semantic-compiler-implementation-notes]]
 - [[concepts/ontology-relation-types]]
+- [[methods/ontology-centered-delivery]]
 
 ## 当前来源追溯
 
@@ -32,6 +33,10 @@ updated: 2026-05-24
 - [[sources/palantir-ontology-foundation]]
 - [[sources/palantir-dynamic-ontology-core]]
 - [[sources/palantir-toolchain-dynamic-ontology-1]]
+- [[sources/palantir-fde-deep-dive]]
+- [[sources/palantir-fde-day]]
+- [[sources/palantir-baseline-fdie]]
+- [[sources/palantir-ontology-oriented-software-dev]]
 
 ## 后续阅读规则
 
