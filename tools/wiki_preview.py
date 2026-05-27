@@ -74,6 +74,10 @@ NAV_SECTIONS = (
             "wiki/sources/palantir-semantic-compiler-engine-1.md",
             "wiki/sources/palantir-first-ontology-practice.md",
             "wiki/sources/palantir-aip-process-mining.md",
+            "wiki/sources/palantir-fde-deep-dive.md",
+            "wiki/sources/palantir-fde-day.md",
+            "wiki/sources/palantir-baseline-fdie.md",
+            "wiki/sources/palantir-ontology-oriented-software-dev.md",
         ),
     ),
 )
